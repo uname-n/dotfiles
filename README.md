@@ -30,6 +30,11 @@ pyenv install 3.12 # install python 3.12
 pyenv global 3.12 # set global to 3.12
 ```
 
+#### [rust](https://www.rust-lang.org)
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 #### [node](https://nodejs.org)
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash # install nvim
@@ -46,7 +51,14 @@ brew install --cask ghostty
 brew install neovim
 ```
 
+#### [mk](https://github.com/uname-n/mk)
+```
+brew tap uname-n/brew
+brew install mk
+```
+
 ### setup
+
 ```bash
 # ensure directories
 mkdir ~/.config ~/Documents/github
@@ -59,3 +71,7 @@ ln -s ~/Documents/github/dotfiles/.zshrc ~/.zshrc
 ln -s ~/Documents/github/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/Documents/github/dotfiles/.config/ghostty ~/.config/ghostty
 ```
+
+### extras
+
+- [SF Mono](https://developer.apple.com/fonts/)
