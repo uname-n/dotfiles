@@ -35,6 +35,18 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 ```
 
+#### [pipx](https://github.com/pypa/pipx)
+```
+brew install pipx
+pipx ensurepath
+sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
+```
+
+#### [poetry](https://python-poetry.org)
+```
+pipx install poetry
+```
+
 #### [rust](https://www.rust-lang.org)
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
