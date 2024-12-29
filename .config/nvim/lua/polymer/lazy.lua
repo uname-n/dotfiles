@@ -18,7 +18,7 @@ require("lazy").setup({
     { "catppuccin/nvim", name = "catppuccin" },
     { 'nvim-lua/plenary.nvim' },
     { 'ThePrimeagen/harpoon' },
-    { 'neoclide/coc.nvim', branch = 'release' },
+    { 'neoclide/coc.nvim', branch = 'release', build = ":CocInstall coc-pyright" },
     { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate'},
     { 'laytan/cloak.nvim' },
 })
