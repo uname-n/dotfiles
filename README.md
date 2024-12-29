@@ -29,6 +29,11 @@ brew install ykman
 pyenv install 3.12 # install python 3.12
 pyenv global 3.12 # set global to 3.12
 ```
+```
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
 
 #### [rust](https://www.rust-lang.org)
 ```
