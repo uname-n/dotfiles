@@ -47,6 +47,11 @@ sudo pipx ensurepath --global # optional to allow pipx actions with --global arg
 pipx install poetry
 ```
 
+#### [black](https://github.com/psf/black)
+```
+pip install black
+```
+
 #### [rust](https://www.rust-lang.org)
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
