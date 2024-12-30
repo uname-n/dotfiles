@@ -2,8 +2,9 @@
     "python.pythonPath": "./.venv/bin/python",
     "python.analysis.extraPaths": ["./.venv/lib/python3.*/site-packages"],
     "python.analysis.typeCheckingMode": "basic",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
+    "pyright.enable": true,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
     "coc.preferences.formatOnSaveFiletypes": ["python"],
     "python.formatting.provider": "black"
 }
