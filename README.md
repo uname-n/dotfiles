@@ -79,6 +79,11 @@ brew tap uname-n/brew
 brew install mk
 ```
 
+#### [cmatrix](https://github.com/abishekvashok/cmatrix)
+```
+brew install cmatrix
+```
+
 ### setup
 
 ```bash
@@ -92,6 +97,7 @@ git clone https://github.com/uname-n/dotfiles.git ~/Documents/github/dotfiles
 ln -s ~/Documents/github/dotfiles/.zshrc ~/.zshrc
 ln -s ~/Documents/github/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/Documents/github/dotfiles/.config/ghostty ~/.config/ghostty
+ln -s ~/Documents/github/dotfiles/.oh-my-zsh/custom ~/.oh-my-zsh/custom
 ```
 
 ### extras
